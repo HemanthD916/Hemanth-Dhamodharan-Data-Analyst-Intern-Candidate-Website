@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Data Analyst Intern Candidate - Business Computer Information Systems Student specializing in data analysis, data visualization, SQL, Python, and Microsoft Excel">
+    <meta name="keywords" content="Data Analyst, Data Analysis, Data Visualization, SQL, Python, Microsoft Excel, Tableau, Power BI, Business Analytics, Reporting, Dashboards, Commercial Lines, Insurance Analytics">
+    <title>Hemanth Dhamodharan | Data Analyst Intern Candidate | Business Computer Information Systems</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #002855;
+            --secondary-color: #0066CC;
+            --accent-color: #00A8E8;
+            --text-dark: #333333;
+            --text-light: #666666;
+            --bg-light: #F5F7FA;
+            --bg-white: #FFFFFF;
+            --border-color: #E0E0E0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-white);
+        }
+
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #003d7a 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+
+        
+        nav {
+            background-color: var(--bg-light);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+
+        nav a:hover {
+            color: var(--secondary-color);
+            background-color: rgba(0, 102, 204, 0.1);
+        }
+
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+            background: var(--bg-white);
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--accent-color);
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        
+        .hero {
+            background: linear-gradient(135deg, var(--bg-light) 0%, var(--bg-white) 100%);
+            padding: 3rem 2rem;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 3rem;
+        }
+
+        .hero h2 {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            border: none;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .skill-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--accent-color);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .skill-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .skill-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .skill-card li {
+            padding: 0.3rem 0;
+            color: var(--text-light);
+        }
+
+        .skill-card li:before {
+            content: "✓ ";
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-dark);
+        }
+
+        ul li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        
+        .project-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--secondary-color);
+        }
+
+        .project-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .project-card .tech {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
+        
+        .highlight-box {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .highlight-box h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .highlight-box ul li:before {
+            content: "✓ ";
+            color: var(--accent-color);
+        }
+
+        
+        footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        
+        .ats-keywords {
+            position: absolute;
+            left: -9999px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="ats-keywords">
+        Data Analyst Intern, Commercial Lines, Data Analysis, Data Visualization, SQL, Python, Microsoft Excel, Tableau, Power BI, Reporting, Dashboards, Operational Data, Trends, Insights, Process Improvement, Efficiency, Project Support, Research, Collaboration, Leadership, Business Performance, Weekly Reports, Monthly Reports, Quarterly Reports, Data Quality, Data Sets, Querying Databases, Business Analytics, Insurance Analytics, Jewelry Industry, Detail-Oriented, Motivated, Analytical Skills, Technical Skills, Problem Solving, Data-Driven Decision Making, Attention to Detail, Organizational Skills, Communication Skills, Adaptability, Fast-Paced Environment, Innovation, Technology Focused, Data-Driven Insights
+    </div>
+
+    <header>
+        <h1>Data Analyst Intern Candidate</h1>
+        <p>Business Computer Information Systems | University of North Texas | Expected Graduation: May 2026</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#qualifications">Qualifications</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#experience">Projects & Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Why I'm the Right Fit for Your Data Analyst Intern Position</h2>
+            <p>Motivated and detail oriented Business Computer Information Systems student with proven expertise in data analysis, data visualization, and reporting. Ready to support Commercial Lines analytical needs and drive process improvement through data-driven insights.</p>
+        </section>
+
+        
+        <section id="about">
+            <h2>Professional Profile</h2>
+            <p><strong>Detail oriented and motivated Business Computer Information Systems student</strong> at the University of North Texas with a passion for:</p>
+            <ul>
+                <li>Data analytics and uncovering insights through analysis</li>
+                <li>AI applications and problem solving through technology</li>
+                <li>Building systems for data tracking, reporting, and automation</li>
+                <li>Creating compelling data visualizations and dashboards</li>
+            </ul>
+            <p>Proficient in <strong>Python, SQL, Excel, and data visualization tools</strong> with hands-on experience in building systems for data tracking, reporting, and automation. Eager to apply technical skills in a real world Commercial Lines analytics environment.</p>
+        </section>
+
+        
+        <section id="qualifications">
+            <h2>How I Match Your Requirements</h2>
+            <div class="highlight-box">
+                <h3>✓ Currently Pursuing Bachelor's Degree</h3>
+                <p>Business Computer Information Systems at University of North Texas (Expected Graduation: May 2026)</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>Data Analysis & Reporting</h4>
+                    <ul>
+                        <li>Analyze operational data</li>
+                        <li>Identify trends and patterns</li>
+                        <li>Generate actionable insights</li>
+                        <li>Support process improvement</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h4>Technical Proficiency</h4>
+                    <ul>
+                        <li>Microsoft Excel (Certified)</li>
+                        <li>SQL for database querying</li>
+                        <li>Python for data analysis</li>
+                        <li>Data visualization tools</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h4>Core Competencies</h4>
+                    <ul>
+                        <li>Excellent organizational skills</li>
+                        <li>Attention to detail</li>
+                        <li>Independent work capability</li>
+                        <li>Strong communication skills</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h4>Project Support</h4>
+                    <ul>
+                        <li>Research and analysis</li>
+                        <li>Resource organization</li>
+                        <li>Project deliverables</li>
+                        <li>Collaboration with leadership</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="skills">
+            <h2>Technical Skills & Tools</h2>
+            
+            <h3>Data Analysis & Visualization</h3>
+            <ul>
+                <li><strong>SQL</strong> - Database querying and data extraction</li>
+                <li><strong>Python</strong> - Data analysis, automation, and system development</li>
+                <li><strong>Microsoft Excel</strong> - Advanced functions, pivot tables, data analysis (Microsoft Office Specialist Certified)</li>
+                <li><strong>Tableau</strong> - Data visualization and dashboard creation</li>
+                <li><strong>Power BI</strong> - Business intelligence and reporting</li>
+                <li><strong>Jupyter Notebooks</strong> - Interactive data analysis</li>
+            </ul>
+
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Python, SQL, Core Java, HTML, CSS, JavaScript, C++, C, COBOL</li>
+            </ul>
+
+            <h3>Software & Platforms</h3>
+            <ul>
+                <li>Microsoft Office Suite (Excel, Word, PowerPoint, SharePoint)</li>
+                <li>Google Workspace (Sheets, Docs, Drive)</li>
+                <li>Linux, Windows, Visio, PuTTY, WinSCP</li>
+            </ul>
+
+            <h3>Core Concepts</h3>
+            <ul>
+                <li>Data Analysis & Data Driven Decision Making</li>
+                <li>Object Oriented Programming</li>
+                <li>Entity Relationship Diagrams (ERDs)</li>
+                <li>Data Visualization & Reporting</li>
+                <li>Inheritance & Polymorphism</li>
+            </ul>
+        </section>
+
+        
+        <section id="experience">
+            <h2>Project Experience & Data Analysis Work</h2>
+
+            <div class="project-card">
+                <h4>Library Management System</h4>
+                <p class="tech">Python | Summer 2024</p>
+                <ul>
+                    <li>Developed Python-based system for managing library catalog (books, CDs, DVDs)</li>
+                    <li>Implemented object-oriented principles (inheritance, polymorphism)</li>
+                    <li>Built user functionality for tracking patrons, items, fines, and loan statuses</li>
+                    <li>Demonstrated data handling and reporting techniques in real-world simulation</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h4>Mean Green EagleLift Ride Sharing System</h4>
+                <p class="tech">C++ | Fall 2023</p>
+                <ul>
+                    <li>Designed C++ system for driver and passenger matching</li>
+                    <li>Created Entity Relationship Diagram (ERD) mapping relationships</li>
+                    <li>Optimized matching algorithms for efficiency and inclusivity</li>
+                    <li>Simulated real time decision logic for operational data analysis</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h4>Data Analytics & Data Science Job Simulations</h4>
+                <p class="tech">Spring 2025</p>
+                <ul>
+                    <li>Completed comprehensive data analytics job simulation</li>
+                    <li>Completed data science job simulation</li>
+                    <li>Applied data analysis techniques to real-world scenarios</li>
+                    <li>Developed skills in data visualization and reporting</li>
+                </ul>
+            </div>
+        </section>
+
+        
+        <section id="education">
+            <h2>Education & Relevant Coursework</h2>
+            
+            <h3>Bachelor of Science in Business Computer Information Systems</h3>
+            <p><strong>University of North Texas, Denton, TX</strong><br>
+            Expected Graduation: May 2026 | GPA: 3.2</p>
+
+            <h3>Relevant Coursework</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>Data & Analytics</h4>
+                    <ul>
+                        <li>Data Analysis</li>
+                        <li>Business Statistics with Spreadsheets</li>
+                        <li>Introduction to Database Applications</li>
+                        <li>Analysis of Business Information Systems</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h4>Programming & Development</h4>
+                    <ul>
+                        <li>Computer Science I & II</li>
+                        <li>Object Oriented Programming for Business</li>
+                        <li>Enterprise Programming</li>
+                        <li>Mainframe Concepts</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h4>Business Foundation</h4>
+                    <ul>
+                        <li>Accounting Principles I & II</li>
+                        <li>Principles of Microeconomics</li>
+                        <li>Principles of Macroeconomics</li>
+                        <li>Finance</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h4>Security & Systems</h4>
+                    <ul>
+                        <li>Administration and Policy in Information Security</li>
+                        <li>Enterprise Systems Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="certifications">
+            <h2>Certifications & Professional Development</h2>
+            <ul>
+                <li><strong>Microsoft Office Specialist: Excel Associate (Excel 2019)</strong> - Spring 2024</li>
+                <li><strong>IBM Z Xplore Advanced Badge</strong> - Fall 2024</li>
+                <li><strong>Data Analytics Job Simulation</strong> - Spring 2025</li>
+                <li><strong>Data Science Job Simulation</strong> - Spring 2025</li>
+            </ul>
+        </section>
+
+        
+        <section id="why-jm">
+            <h2>Why I'm Excited About Jewelers Mutual</h2>
+            <div class="highlight-box">
+                <p>I am drawn to Jewelers Mutual's commitment to innovation, data driven insights, and continuous improvement. Your technology focused approach and emphasis on cutting edge tools align perfectly with my passion for analytics and problem-solving through technology.</p>
+                <p style="margin-top: 1rem;">I'm eager to:</p>
+                <ul>
+                    <li>Contribute to Commercial Lines analytical and reporting needs</li>
+                    <li>Work with large data sets to uncover insights</li>
+                    <li>Create compelling data visualizations and dashboards</li>
+                    <li>Support process improvement and efficiency initiatives</li>
+                    <li>Learn from experienced leadership in a collaborative environment</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Hemanth Dhamodharan | Data Analyst Intern Candidate</p>
+        <p>Ready to contribute to Jewelers Mutual's Commercial Lines team</p>
+        <p style="margin-top: 1rem;">
+            <a href="mailto:hemanthdhamodharan@my.unt.edu">Contact via Email</a> | 
+            <a>Phone number: (973) 960-8081</a> | 
+        </p>
+    </footer>
+
+    <script>
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
